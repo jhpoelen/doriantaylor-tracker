@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/transform" type="text/xsl"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bs="http://purl.org/ontology/bibo/status/" xmlns:ci="https://vocab.methodandstructure.com/content-inventory#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" lang="en" prefix="bibo: http://purl.org/ontology/bibo/ bs: http://purl.org/ontology/bibo/status/ ci: https://vocab.methodandstructure.com/content-inventory# dct: http://purl.org/dc/terms/ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# xhv: http://www.w3.org/1999/xhtml/vocab# xsd: http://www.w3.org/2001/XMLSchema#" vocab="http://www.w3.org/1999/xhtml/vocab#" xml:lang="en">
+  <head>
+    <title lang="en" property="dct:title" xml:lang="en">Motivation &amp; Rationale</title>
+    <base href="https://doriantaylor.com/summer-of-protocols/motivation-and-rationale"/>
+    <link href="../elsewhere" rel="alternate bookmark" title="Elsewhere"/>
+    <link href="../this-site" rel="alternate index" title="This Site"/>
+    <link href="http://purl.org/ontology/bibo/status/draft" rel="bibo:status"/>
+    <link href="http://purl.org/ontology/bibo/status/published" rel="bibo:status"/>
+    <link href="" rel="ci:canonical" title="Motivation &amp; Rationale"/>
+    <link href="http://www.w3.org/1999/xhtml/vocab#" rel="http://www.w3.org/ns/rdfa#usesVocabulary"/>
+    <link href="../person/dorian-taylor" rel="meta" title="Who I Am"/>
+    <link href="./" rel="up" title="Summer of Protocols: Retrofitting the Web"/>
+    <link about="../" href="../3f36c30c-6096-454a-8a22-c062100ae41f" rel="alternate" type="application/atom+xml"/>
+    <link about="../" href="../this-site" rel="alternate"/>
+    <link about="../" href="../elsewhere" rel="alternate"/>
+    <link about="../" href="../e341ca62-0387-4cea-b69a-cdabc7656871" rel="alternate" type="application/atom+xml"/>
+    <link about="../" href="../f07f5044-01bc-472d-9079-9b07771b731c" rel="alternate" type="application/atom+xml"/>
+    <link about="../verso/" href="../3f36c30c-6096-454a-8a22-c062100ae41f" rel="alternate" type="application/atom+xml"/>
+    <link about="../verso/" href="../this-site" rel="alternate"/>
+    <link about="../verso/" href="../elsewhere" rel="alternate"/>
+    <meta content="false" datatype="xsd:boolean" property="ci:indexed"/>
+    <meta content="2023-05-03T05:19:07Z" datatype="xsd:dateTime" property="dct:created"/>
+    <object>
+      <nav>
+        <ul>
+          <li>
+            <a href="./" rev="sioc:container_of" typeof="sioct:ProjectDirectory">
+              <span property="dct:title">Summer of Protocols: Retrofitting the Web</span>
+            </a>
+          </li>
+          <li>
+            <a href="technical-note/1" rev="ci:mentions" typeof="bibo:Note">
+              <span property="dct:title">Technical Note 1</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </object>
+  </head>
+  <body about="" id="E4ZbUT8GRcmPHKELtIoDNI" typeof="bibo:Report">
+    <div id="EEVorzUrni9HyjJNlxEoNJ" rel="dct:hasPart" resource="#EEVorzUrni9HyjJNlxEoNJ" typeof="bibo:DocumentPart">
+      <p>The problem that I'm trying to solve&#x2014;or at least contribute in some small way to a solution&#x2014;has been notoriously hard to articulate. I've narrowed it down to not one, but <em>three</em> points of departure:</p>
+      <dl>
+        <dt>Repairing a medium</dt>
+        <dd><dfn>Hypermedia</dfn> has been an object of both theory and practice for decades preceding the Web&#x2014;and even before computers. The Web&#x2014;now ubiquitous&#x2014;traded off a lot of really powerful ideas in return for not only easy implementation and deployment but also easy (instantaneous, global) publishing, plus one key capability the others categorically lacked: links that cross both system <em>and</em> organizational boundaries. <em>But</em>, there is nothing in principle preventing those powerful ideas from earlier hypermedia systems&#x2014;real and imagined&#x2014;from being grafted <em>back</em> onto the Web. It just needs a clear vision and a little elbow grease.</dd>
+        <dt>Kicking off a <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Jevons_paradox">Jevons Paradox</a></dt>
+        <dd>
+          <p>If that proposition isn't valuable enough on its face, consider the problems early (and proto-) hypermedia pioneers were trying to solve:</p>
+          <ul>
+            <li><time>1895</time>: <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Paul_Otlet">Paul Otlet</a> wanted to <a rel="dct:references" href="https://en.wikipedia.org/wiki/Mundaneum">organize the world's knowledge</a>,</li>
+            <li><time>1945</time>: <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> wanted to <a rel="dct:references" href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">supercharge individual intellectual pursuit</a>,</li>
+            <li><time>1960</time>: <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a> wanted&#x2014;and <em>still</em> wants, among many other things&#x2014;to open up <a rel="dct:references" href="https://www.wired.com/1995/06/xanadu/">an entire new dimension of creative expressivity</a> (and get authors paid for their work),</li>
+            <li><time>1962</time>: <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Douglas_Engelbart">Douglas Engelbart</a> <em>literally</em> wanted to <a rel="ci:mentions" href="https://www.dougengelbart.org/content/view/138/">augment human intellect</a>.</li>
+          </ul>
+          <p>All of these goals are contingent on making it super cheap to marshal lots and lots of tiny little pieces of information, connected to one another by an even bigger number of links&#x2014;and this is important&#x2014;links of all different kinds. Compared to its predecessors as a specimen of hypermedia, the Web, at least out of the box, ranks mediocre to poor. Without help, the Web is limited in its range of expressivity <em>as a medium</em>, because the cost of managing tiny pieces densely linked is prohibitive, and so it reverts back to the <em>page</em> being the basic unit of discourse. Again, nothing in principle prevents this from changing, so the question is, what could we make if the econophysics of the Web were dramatically altered?</p>
+        </dd>
+        <dt>Empowering <em>people</em> (platforms can fend for themselves)</dt>
+        <dd>
+          <p>And if <em>that</em> appeal isn't, well, <em>appealing</em>, consider that there is an entire class of tools that exist&#x2014;or <em>would</em> exist&#x2014;<em>just</em> beyond the reach of a spreadsheet. That is, they do very little besides afford data entry into some intricate structure or other, do some trivial manipulations, and then represent that information back to you&#x2014;or perhaps somebody else. Many of the needs for these tools come from professionals in various niches&#x2014;often very close the places such tools would be produced. The overhead, however, is still so high, that they need to wait for a vendor to come along and make <q>an app for that</q>.</p>
+          <p><dfn>Personal knowledge management</dfn> tools are beginning to fill this gap, but in my opinion they fail irretrievably in one important way or another. One such failure mode is <dfn>platforms</dfn>: the integrity of your content depends on paying regular tribute to some company or other (<a rel="ci:mentions" href="https://notion.so/">Notion</a>, <a rel="ci:mentions" href="https://roamresearch.com/">Roam</a>) in perpetuity. In systems where you <q>own your data</q> (<a rel="ci:mentions" href="https://obsidian.md/">Obsidian</a>, <a rel="ci:mentions" href="https://logseq.com/">Logseq</a>), its disposition is ad-hoc. In either case, you lose a piece of what makes the Web what it <em>is</em>: a set of open standards and protocols that provide a <em>single common interface</em>, that doesn't have to be tailored to a single vendor, no matter how progressive they turn out to be.</p>
+          <p>The idea behind this initiative is to set a new <em>floor</em>, where the little guy has some bargaining power, not only because they own their data, but that data doesn't favour any particular vendor. This is about addressing a <em>bottleneck</em> to getting important work <em>done</em> as much as it is about addressing a power disparity.</p>
+        </dd>
+      </dl>
+    </div>
+    <section id="EJLbwEBH6aU9J_LD5DdbTI" rel="dct:hasPart" resource="#EJLbwEBH6aU9J_LD5DdbTI" typeof="ci:Section">
+      <hgroup>
+        <h2 property="dct:title">Repairing a Medium</h2>
+        <p>The Web left a set of powerful capabilities on the table. Let's put them back.</p>
+      </hgroup>
+      <p>The Web, out of the box, is a system for creating what I characterize as <em>sparse</em> hypermedia: long documents&#x2014;<em>pages</em>&#x2014;with few links connecting them. If you were to take a typical website and strip off the navigation bar and footer, the result may as well be a collection of Word documents or <abbr>PDFs</abbr>&#x2014;in other words, <em>print-era</em> documents. In my opinion, one of the main value propositions of hypermedia is being able to spare people the need to read (or watch, or listen) any more than they have to. You accomplish that by breaking up the content into little pieces and making them subject to activation by the reader. I call this, by contrast, <dfn>dense hypermedia</dfn>. Dense hypermedia is what we had <em>before</em> the Web, from Hypercard and StorySpace, all the way back to the experimental systems and the original visions of hypermedia pioneers. What these systems had in common, though, is that they were all monoliths: hermetically sealed environments. What the Web did was make hypermedia <em>permeable</em>, able to cross administrative boundaries with no more effort than it takes to access a local resource. It is also characteristically easy to deploy: with the heavy lifting hived off to the poles of browser and server, the part in the middle&#x2014;instantaneous global publication&#x2014;can be had practically for free. The Web did these unique and powerful things at the expense of capabilities present in its predecessors, as well as introducing some problems of its own:</p>
+      <dl>
+        <dt><dfn>Backlinks</dfn></dt>
+        <dd>On the Web, links go forward only. You can't tell what links to a particular resource. That's extra work. (This is one of <span>Ted Nelson's</span> original beefs with the Web.)</dd>
+        <dt><dfn>Transclusion</dfn> and the general problem of content reuse</dt>
+        <dd>On the Web, you can embed images, audiovisual content, and even entire <em>other</em> documents into a document, and you can reuse scripts and presentation information, but you can't seamlessly integrate an arbitrarily narrow excerpt from some other source without resorting to one of a zillion clunky ad-hoc solutions. This leads to a dynamic where it's easier to <em>copy</em> information than it is to <em>reference</em> it, which in turn leads to additional overhead of keeping said content up to date, and the inevitable failures to do so.</dd>
+        <dt>Other linking mechanisms left unexplored</dt>
+        <dd>On the Web, you have <dfn>arcs</dfn> (whether ordinary <q>safe</q> links or state-modifying ones, such as form submissions), and you have what I characterize as <q>na&#xEF;ve embeds</q>&#x2014;basically just a rectangle of remote content plunked down wherever you put it. In addition to proper (seamless) <dfn>transclusion</dfn>, earlier hypermedia systems had <dfn>stretchtext</dfn> (telescopically-expanding detail), conditional display (e.g., Choose Your Own Adventure), and <dfn>view control</dfn> (different representations of the same content), among other interesting and powerful specimens of rhetorical, didactic, and literary value left on the table.</dd>
+      </dl>
+      <p>Again, the Web <em>can</em> do all these things in principle (and ultimately <em>does</em> accomplish many of them in practice), but the solutions are ad-hoc, one-off, and mutually incompatible. We're looking for a principled approach to restoring these lost capabilities, so they span organizations and implementations, as the Web does with its off-the-shelf repertoire.</p>
+      <section id="Eblcq1MTrVgHMjE-7eTG_K" rel="dct:hasPart" resource="#Eblcq1MTrVgHMjE-7eTG_K" typeof="ci:Section">
+        <h3 property="dct:title">It's The <abbr>URLs</abbr>, Stupid</h3>
+        <p>After decades of experience with this medium, I conclude that much of what ails the Web can be traced back to the inherent tensions around <abbr>URLs</abbr>. <abbr>HTTP</abbr> <abbr>URLs</abbr> were initially derived from file paths. File systems themselves come from an era when storage was scarce and computers were typically not networked. As such the naming and locating of computer files&#x2014;a necessary precursor to saving anything at <em>all</em>&#x2014;wasn't something one did very frequently. In any case, what you chose to name a given file, and where you located it, was typically nobody else's business.</p>
+        <p>The cardinal sin of the Web was to attach public consequences to what had until then been a largely private affair. The state of the art is that <abbr>URLs</abbr> are shamefully unreliable, because there's nothing <em>making</em> them be. <dfn>Link rot</dfn> (and its subtler relative, <dfn>content drift</dfn>) is so bad, the median survival time of a <abbr>URL</abbr> is something like three months. Decades into this technology and there's still thin, if <em>any</em> meaningful, systematic support for the continuity of Web resources and the <abbr>URLs</abbr> that identify and locate them.</p>
+        <aside id="ENUoO81g1FbVoub6XjOYnL" role="note" rev="oa:hasTarget" resource="../354a0ef3-5835-415b-b568-b9be978ce627" typeof="oa:Annotation">
+          <p property="oa:hasBody">The Web's inventor is aware of the situation, and <a rel="dct:references" href="https://www.w3.org/Provider/Style/URI.html">tried to absolve himself of the issue</a> 25 years ago. (Maybe we can forgive him; it seemed like a good enough idea at the time.)</p>
+        </aside>
+        <p>The tensions I alluded to have to do with diverging interests around the content of the <abbr>URL</abbr> string beyond its bare technical function. For one, <abbr>URLs</abbr> are important user interface elements: they lend themselves to being made intelligible, memorable, even guessable and/or inferrable. They telegraph information about the topological structure of the website, and they provide an entry point to the Web from any other (typo)graphical medium. <abbr>URLs</abbr> are therefore potentially valuable symbolic real estate, which gets even <em>more</em> valuable as they diffuse out into the environment. The tension, precisely, is that choosing a good, intelligible, future-proof <abbr>URL</abbr> takes considerable editorial and curatorial attention. At the same time, there is demand to pick one quickly, since you can't refer to (or even save!) the document until it has a <abbr>URL</abbr>.</p>
+        <aside id="EGkJxg5YwvCKEaNo9UjdJJ" role="note" rev="oa:hasTarget" resource="../1a427183-9630-4bc2-9284-68da3d523749" typeof="oa:Annotation">
+          <p property="oa:hasBody">It has been common for some time for <abbr>URL</abbr> <dfn>slugs</dfn> to be derived from document titles, but if you change the title, you change the slug&#x2014;or maybe you don't! So then you change the title but the <abbr>URL</abbr> doesn't change along with it. Again, from a technical perspective this doesn't matter, but if you want slugs to track titles, <em>something, somewhere</em> has to store that naming history.</p>
+        </aside>
+        <p>The elephant in the room for <abbr>URL</abbr> continuity is other people's websites. The solution in principle is obvious: you can't trust other people's websites so you will have to police every outgoing link your website makes to ensure it continues to represent the same thing it did when you linked it. This is an easy (if labour-intensive) engineering problem in theory but a hard <em>design</em> problem in practice, so hard I am officially declaring it out of scope for this project. I <em>do</em>, however, endeavour for this project to demonstrate a <q>model citizen</q> on the Web&#x2014;that is, one you can depend on its constituent <abbr>URLs</abbr> pointing to the same thing in perpetuity.&#x2731;</p>
+        <aside id="Er9PUIFo2yMOggWqAdSAHI" role="note" rev="oa:hasTarget" resource="../afd3d420-5a36-4c8c-83a0-816a80752007" typeof="oa:Annotation">
+          <p property="oa:hasBody">&#x2731;&#x2009;That is, as long as the domain and Web server (cloud, lambda, whatever) bills get paid. <a href="../the-hundred-year-infrastructure">I <em>have</em> considered what happens</a> after the sunset of <abbr>DNS</abbr> and single-point-of-hosting, but the best I am willing to do at the moment is design a system that <em>contemplates</em> these possibilities and leaves the door open to them, without trying to tackle them directly.</p>
+        </aside>
+      </section>
+    </section>
+    <section>
+      <hgroup>
+        <h2>Kicking Off a <a rel="ci:mentions" href="https://en.wikipedia.org/wiki/Jevons_paradox">Jevons Paradox</a></h2>
+        <p>What could we make on top of a substrate of <dfn>dense hypermedia</dfn>?</p>
+      </hgroup>
+      <p>The introduction of the spreadsheet contributed to the <abbr title="mergers and acquisitions">M&amp;A</abbr> boom of the 1980s, and eliminated an entire class of journeyman accountant. It achieved this by shrinking the problem of financial scenario-planning to a point. 45 years later, spreadsheets are used for everything. They are a veritable Swiss-army knife of computing; arguably the only form of general-purpose computing available to the non-specialist public.</p>
+      <p>In fact, to date, the spreadsheet remains the only viable fully self-serve programming environment available to the general public. The problem is that there is a gulf between what can be accomplished with a spreadsheet, and what merits an entire team to be spun up to deliver an entire product. The gap is sparsely flecked with solutions like <a rel="ci:mentions" href="https://www.r-project.org/"><abbr>R</abbr></a> and <a rel="ci:mentions" href="https://jupyter.org/">Jupyter Notebook</a>, but they still require learning how to code. Merely knowing how to code isn't enough though, because of the colossal step change in effort once you exit the spreadsheet capability envelope. Many such targets aren't viable unless you divert your energy into creating a product. This of course is <em>another</em> entire universe of effort on top of what it would take to make a tool just for yourself. What this means, in the first place, is that a lot of problems simply aren't going to get solved.</p>
+      <aside role="note">
+        <p>I may as well preemptively state my position that I am less sanguine about the potential of statistical methods of computing than many. Arguments have been floated about the benefits of so-called generative <abbr>AI</abbr> for code, but if you don't understand it well enough to write it yourself, how are you going to understand it if the machine generates it for you? What makes spreadsheets successful is that they are like Duplo blocks: pure functional language, batteries included, no messy variables to worry about. In other words, they are <em>intelligible</em>.</p>
+        <p>General-purpose programming languages have so many degrees of freedom (to say nothing of copious housekeeping minutiae) that being able to tell when a <dfn>large language model</dfn> generates a subtle but consequential error will still require a considerable amount of programming expertise. You can't trust an <abbr>LLM</abbr> for anything that has to be genuinely load-bearing, and I doubt more parameters will make a difference. I <em>do</em> nevertheless believe that there are many roles for machine learning in software development, but facilitating programming neophytes by magicking up entire production-ready apps is not on my list.</p>
+      </aside>
+      <p>The most significant advancement in spreadsheets in decades was putting them on the Web. That was actually a genuinely good idea. Same with the implicit <dfn>version control</dfn> and collaborative editing capability that came along for the ride. That <em>said</em>, I suspect people are finally outgrowing the fundamental constraints that make a spreadsheet what it is:</p>
+      <ul>
+        <li>The data types are hot garbage (insert joke about Excel trying to turn everything into a date),</li>
+        <li>there are no composite data structures beyond row or column vectors, or otherwise entire rectangular regions,</li>
+        <li>there are no cycles, nesting, or recursion,</li>
+        <li>there are limited means of hiding how the sausage is made (like you can with the various <q>notebook</q> products),</li>
+        <li>and so on&#x2026;</li>
+      </ul>
+      <aside role="note">
+        <p>Consider the following pedestrian example of the limitations of a spreadsheet: a humble contact list, one person per row. Now, suppose some people have more than one address, or even simpler, more than one phone number or e-mail. To capture these values you'll need as many columns for each as the person with the most of either. This situation can be palliated somewhat by concepts like <q>home phone</q> or <q>work email</q>, but what if somebody has more than one job? (Or home, for that matter?) Contrast with a dedicated contacts app, which is record-oriented, you can have as many phone numbers or e-mail addresses (each tagged with its respective qualifier) per person as you like.</p>
+      </aside>
+      <p>The existence proof that people want more can be observed in the proliferation of general-purpose products from <a rel="ci:mentions" href="https://www.airtable.com/">AirTable</a> to <a rel="ci:mentions" href="https://notion.so/">Notion</a> to <a rel="ci:mentions" href="https://roamresearch.com/">Roam</a>, to specialized products (bug trackers, <abbr>CRMs</abbr>, even tip calculators) too numerous to list. I submit that each one of these is nevertheless missing at least one piece of the (second) brain. What makes these products viable is that unlike a spreadsheet-shaped problem, individuals can't fashion their own solution&#x2014;or if they <em>can</em>, their solution is cumbersome enough that they prefer the niche product.</p>
+      <p>Imagine spreadsheets didn't exist and you needed a vendor to show up and make a separate app for every trivial little thing you use a spreadsheet for. What I'm arguing is that this is in fact the situation, just a little bit farther up a gradient of, not <em>complexity</em> per se, but let's call it perhaps <em>intricacy of structure</em>. There simply isn't enough software development capacity for there to be An App For That&#x2122;, for every <em>that</em>.</p>
+      <aside role="note">
+        <p>Even if there was, the apps would be walled off from one another, as apps are wont to do. As primitive as spreadsheets are, they are at least <em>permeable</em>: the <abbr>CSV</abbr> file format is the de facto lingua franca of structured data, for some value of the term. Which is depressing, but at least it's <em>something</em>. Try making adapters for every pair of <abbr>APIs</abbr> under the sun&#x2014;assuming their respective apps even <em>expose</em> them.</p>
+      </aside>
+      <figure>
+        <p>[DIAGRAM TBD]</p>
+        <figcaption>
+          <p>Once I figure out how I want to draw this spectrum-lookin' thing:</p>
+          <ul>
+            <li>not even worth the trouble of a spreadsheet&#x2014;use a post-it or calculator or whatever</li>
+            <li>well within spreadsheet rubric</li>
+            <li>at the edge of spreadsheet capability envelope (no macros; if you are using macros you are Actually Programming&#x2122;)</li>
+            <li>can't be done with a spreadsheet but worth writing code for&#x2014;assuming you can code</li>
+            <li>can't be done with a spreadsheet but categorically not worth writing code for</li>
+            <li>worth writing code for, but only if you can productize it</li>
+            <li>serious software product&#x2014;need a whole team/company to support it</li>
+          </ul>
+          <p>The idea is to move the line of what can be achieved by an individual (and is furthermore worth doing) to the right (and even fill out the left a little bit).</p>
+        </figcaption>
+      </figure>
+      <p>I posit that if we had, at the core, a way of entering, representing and exchanging structured data&#x2014;not to mention its global, instantaneous publication&#x2014;plus a handful of sundry computations, we could dramatically extend the capabilities of an individual knowledge worker, <em>before</em> they had to touch anything that looked like conventional, imperative code. A number of the problems that aren't worth solving because they currently require a lot of time to program&#x2014;if not spinning up an entire team and company and capital to tackle&#x2014;will be within reach. This implies that the companies who currently occupy this zone will have to move up the effort gradient. Some will go the way of those journeyman accountants. Oh well.</p>
+      <aside role="note">
+        <p>To set my argument apart from the current profusion of <q>no-code</q>/<q>low-code</q> systems, what I still don't see a lot of&#x2014;again, having spent my entire adult life and then some in this industry&#x2014;are ways for ordinary people to <em>enter</em> (by hand or programmatically), <em>arrange</em>, and <em>represent</em> structured data. That is, notwithstanding the 45-year-old spreadsheet, and all its limitations.</p>
+      </aside>
+      <p>Two decades ago, the media theorist <span>Lev Manovich</span> posited that the <em>database</em>&#x2014;by which he meant navigable hypermedia environments&#x2014;would be the transformative medium of the 21st century, just as film transformed the 20th. I submit that we <em>feel</em> the effects of databases <em>on</em> us, like victims&#x2014;ultimately of governments and corporations&#x2014;but we <em>still</em> can't afford our own. After 25 years immersed in this industry&#x2014;and I showed up late in the game&#x2014;it's <em>still</em> a serious project to do anything on a computer that is more sophisticated than a spreadsheet, and waiting around for a vendor to serve my niche, esoteric needs&#x2014;especially without onerous strings attached&#x2014;is a laughable proposition. So <em>what</em> would happen if the unit economics of the database&#x2014;or more appropriately, the <dfn>knowledge graph</dfn>&#x2014;were to get dramatically cheaper?</p>
+      
+    </section>
+    <section class="draft">
+      <hgroup>
+        <h2>Empowering <em>People</em></h2>
+        
+        
+        <p>Who owns your attention?</p>
+      </hgroup>
+      <p>there isn't enough software development capacity to do all the things, and the capacity that <em>is</em> present extracts a shitton of rent</p>
+      <p>i'm basically arguing that the hole between spreadsheet and software that genuinely merits a company to be built up around it is bad for society</p>
+      <p>gotta talk about the intersection of:</p>
+      <ul>
+        <li>climate change</li>
+        <li>increasing wealth inequality</li>
+        <li>misinformation/disinformation</li>
+        <li>eroding democracy</li>
+      </ul>
+      <section>
+        <h3>Climate Change</h3>
+        <p>While the germ of this project goes all the way back to <time>2006</time>, I got a boost in <time>2015</time> when I read <span>Bret Victor's</span> sprawling essay on climate change. I was particularly moved by the chapter called Media for Understanding Situations, in which he argued for the use of models and data in interactive simulations to inform public policy discourse. It was enough of a lift for Victor to do all he did to make the argument; we shouldn't also expect him to figure out how one would pull it off at scale&#x2014;although he <em>did</em> put a dent in it. What got me interested was that the technical problem of marshalling data and computational models and making them available is one I actually know something about.</p>
+        <p>The complicating factor here is that Bret Victor wrote his essay in <time>2015</time>, when it was still possible to believe that if you just gave people good information, they would make good decisions. That is, before the bullshit renaissance that was in full swing <time datetime="2016">a year later</time>. I nevertheless believe the technical problem is still worth solving, just perhaps not for the exact original reason.</p>
+      </section>
+      <section>
+        <h3>Increasing Wealth Inequality</h3>
+        <p>Climate change is obviously <em>Bad</em>&#xAE; and <em>We Should Do Something</em>&#x2122; about it. The <q>We</q> in this case is typically shorthand for citizens of democracies. Except our governments only do what rich people want, and the things rich people want are typically good for them and bad for everybody else. (Or, if it <em>is</em> any good for us, it's <em>better</em> for them somehow.)</p>
+        <aside role="note">
+          <p>You don't have to even posit some grand conspiracy for this mechanism; enough of it can be accounted for with boring old availability bias: rich people and politicians have a lot of access to each other, even if those interactions were completely benign.</p>
+          <p>In democracies you can think of this as part of the game, rich people and politicians collude in the gaps, on everything that isn't acutely invidious enough to get the latter voted out. Sometimes even that isn't enough: in Canada <time datetime="2023-07-09">right now</time> we have a government in its third term&#x2014;a minority at that&#x2014;pushing through bill after bill that nobody (well, <em>somebody</em>) wants, and they keep getting re-elected because the voters understand the other guys would do the same, but worse.</p>
+          <p>Presumably how you keep this behaviour in check is an engaged citizenry who has a set of baseline expectations across the board, and a list of things that nobody, regardless of who they vote for, will tolerate.</p>
+        </aside>
+        <p>As wealth inequality sharpens, the dynamics produce a <em>decreasing</em> headcount of individuals, each with an <em>increasing</em> quantity of resources at their disposal. Everybody else is distracted with their own affairs, many of which are economic in nature. Too busy putting out fires to do things like participate in civil society. Now, when people write on inequality they usually mean <em>income</em> inequality and remark about how <em>unfair</em> it is. I'm not particularly interested in questions of fairness; rather I view extreme <em>wealth</em> inequality, when there are eight billion people on the planet and counting, as hazardous to human civilization.</p>
+        <figure>
+          <p>[LORENZ CURVE SIMULATION GOES HERE]</p>
+          <figcaption>
+            <p>I don't love Lorenz curves because they represent perfect equality as not only normative but somehow achievable. Perfect equality in an economic system is an unstable equilibrium that disappears the instant agents start interacting. And even if it <em>was</em> somehow stable, perfect equality would amount to political gridlock. What you're going to see instead is <a rel="dct:references" href="http://bactra.org/weblog/491.html">something power-law-ish</a>, and the question to ask is <em>what is the value of the parameter</em>? Represent that as a Gini coefficient and the higher number corresponds to fewer people in charge of more resources each, which you can interpret roughly as how much of <em>other</em> people's attention can one of these individuals divert.</p>
+            
+          </figcaption>
+        </figure>
+        <p>My thesis is essentially that people <em>lose resolution</em> as the pool of resources under their control increases: as the pile gets bigger, they just round off at bigger orders of magnitude. When individuals are in control of vast quantities of resources, even the smartest, most well-meaning person will make what are effectively targeting errors. What we're more likely to get, though, are people who are <em>not</em> well-meaning, nor even especially intelligent. This happens irrespective of whether those resources are yours. The difference with private wealth is it's your money, so you're only accountable to yourself.</p>
+        <aside role="note">
+          <p>When you don't have a lot of money, you have to think scrupulously about how you allocate every penny. When you have more of it, there comes a point&#x2014;and it doesn't take much&#x2014;where you can afford to be sloppier. Not only that, you kind of <em>have</em> to be sloppier, because if you acted the way you did when you didn't have any money, you'd have all this money left over and no time to enjoy it. So you allocate bigger and bigger chunks at once. Eventually, you hire someone to do that for you, and they hire someone, and so on, and that's basically the economy in a nutshell.</p>
+        </aside>
+        <p>The reason why I focus on wealth and not income is because wealth represents how much of other people's attention you can divert at any instant. Income is at best a derivative of that. (If you want you can think of&#x2014;net, of course&#x2014;income as&#x2014;in the limit&#x2014;what you get for your attention and wealth as how much attention you can command.)</p>
+        
+        
+        <p>Strategies for getting stupendously wealthy, feel free to mix and match:</p>
+        <ul>
+          <li>find some activity that reliably earns you a dollar in profit; repeat a billion times</li>
+          <li>play a sequence of super-convex, compounding parlays</li>
+          <li>externalize costs and risk (heads I win, tails you lose, etc.)</li>
+          <li>own something that enables you to extract (economic) rent</li>
+        </ul>
+        <p>Software systems contain these ingredients in unprecedented abundance.</p>
+
+        <p>When you're poor you can't speculate cause you can't afford to lose anything, <em>ever</em>. When you're rich, you can make tons of risky bets with huge antes and way <em>way</em> bigger upsides relative to any conceivable downside, lose most of them, and still come out on top, because&#x2014;and this is true for everybody but it takes being rich to really leverage it&#x2014;your adventures only have to pay off <em>on average</em>. There's also a huge chunk you can just burn without any expectation of return. That means copious vanity projects and white elephants, lavish consumption, wild speculative bets, and unending rivalries with peers. Rocket to Mars, indoor ski hill, solid gold toilet, giant limestone pyramid, ultra super megayacht, whatever. Do you really want the attitude of the people setting the global agenda to be <q>I'll be fine regardless of the outcome, so <abbr>YOLO</abbr></q>?</p>
+
+        <p>the final remark i'll make before i close this section out is wealthy people get a lot of leverage, that only becomes more pronounced under conditions of extreme inequality </p>
+
+        <p>human civilization has laboured under much more extreme wealth inequality than we see today but that was before the anthropocene</p>
+        <p>pick your favourite emperor; they could command entire nations but couldn't put a scratch in the planet's ecosystem no matter how hard they tried </p>
+
+        <p>climate change is a problem of the modern era basically a side effect of us being really successful as a species, of business as usual</p>
+        <p>but also a story of people who knew and sold that existence to us anyway</p>
+
+        <p>if we want to survive as a civilization we have to evolve new ways of organizing and people who do well with the current way of organizing are always going to get in the way of that</p>
+
+
+        <p>The sharpness of the inequality curve is going to track with the topology of the economic network: sharper reflects one that is more concentrated and centralized, blunter is more peer-to-peer and distributed. A gentler wealth distribution curve means the people at the top can't divert as much of everybody else's attention for their dumb bullshit. To blunt the curve, you have to be able to cut these entities out of your economic interactions. You have to be able to <em>deny</em> them your attention. In <span>Bruce Sterling's</span> words, <q>keep more of the money yourself</q>.</p>
+      </section>
+      <section>
+        <h3>Misinformation &amp; Disinformation</h3>
+        <p>One evolution in my own thinking over the last several years was a Copernican inversion in how I conceptualize information, belief, rhetoric, and reason. </p>
+        <p>okay what exactly do i want to say about this</p>
+        <p>something like more information means more misinformation</p>
+        <p>most instances of misinformation are barely consequential; people absorb a loss that amounts to a minor inconvenience and carry on</p>
+        <aside role="note">
+          <p>(at least the consumers of that information; misinformation <em>about</em> a person can be seriously harmful to that person)</p>
+          <p>so you have a cipolla-stupidity area effect there</p>
+        </aside>
+        <p>corollary: you can believe a lot of wrong shit and it doesn't matter</p>
+        <p>ooda loop is not natural, it's something you have to train into</p>
+        <p>people aren't looking for facts to integrate into a model to make decisions; they're looking for stories that justify what they're already motivated to do</p>
+        <p>(or what they've <em>already</em> done)</p>
+        <p>okay but what if you actually wanted accurate information, how would you get it</p>
+        <p>trusted sources (including identifiable authors), receipts, full bibliography, tamper-resistant, expiry date</p>
+        <p>also wait to respond (unless the outcome is worse if you don't)</p>
+        <p>may need to pay for good information if misinformation is sufficiently consequential</p>
+        <p>will need some kind of pricing model for that, ie how much is appropriate</p>
+        <p>big thing though is people who want good information should be able to get it</p>
+        <p>hypothesis is they will outperform the ones who insist on bad information (albeit subject to certain conditions)</p>
+        
+      </section>
+      <section>
+        <h3>The Erosion of Democracy</h3>
+        <p>the whole thing about voters getting the governments they deserve</p>
+        <aside role="note">
+          <p>At this point I should address the <q>well maybe we need to get rid of democracy</q> crowd: I submit that democracy is a handbrake on the really, <em>really</em> bad outcomes, at least when it functions. Also note I'm not American, so my experience is different from them.</p>
+          <p>The point is that there are limitations on what individual human beings can address and coordinate around. Also, if you're holding out for a world order presided over by a benevolent <abbr>AI</abbr> dictator &#xE0; la Culture series, the planet will probably be a cinder by then.</p>
+        </aside>
+      </section>
+      <section>
+        <h3>How Anything I'm Doing Could Possibly Help</h3>
+        <p>i'm not pretending i'm saving the world here</p>
+        <p>radically more powerful ways of authoring, consuming, verifying information</p>
+        <p>radically more powerful ways of communicating facts</p>
+        <p>radically more powerful ways of storytelling</p>
+        <p>(sorry, the information density of substack blows)</p>
+        <hr/>
+        <p>XXX THIS IS RIPPED FROM ABOVE SO REWORK IT LOL</p>
+        <p>The problem with these niche products is that they are sold as subscriptions, and so the intricate memory palaces we create with them are contingent on plugging some meter in perpetuity. It would be one thing if it was just a matter of money, but there are mounting <em>qualitative</em> concerns with <abbr>SaaS</abbr> platforms that are becoming apparent as we gain more experience with them. To hedge against platforms, we need to be able to possess our own data&#x2014;but the data is worthless if it can't be used outside the particular platform that disgorged it.</p>
+        <aside role="note">
+          <p>Platforms&#x2014;leaving aside the cornucopia of self-dealing they engage in with your data&#x2014;have outages and data loss incidents, they get hacked, and they go out of business. Or, they get acquired, and the new owner shuts down the product or changes its policy. Or they just change their policy anyway, to whatever they like, whenever they feel like it. Consider how certain platform companies responded to the war in Ukraine by denying service to otherwise uninvolved Russians who were literally minding their own business. One <em>could</em> argue that's an appropriate response, but if some company you depend on decides without warning that for whatever geopolitical reason they're no longer going to serve <em>you</em>, you're screwed if you can't take your business elsewhere.</p>
+        </aside>
+      </section>
+    </section>
+    <section class="draft" id="">
+      <hr/>
+      <p>The problem that I'm trying to solve&#x2014;or at least contribute in some small way to a solution&#x2014;has been notoriously hard to articulate. Some prior art I can draw on for part of  an explanation is the independent researcher <a href="http://www.worrydream.com/ClimateChange/"><span>Bret Victor's</span> 2015 climate change essay</a>, because climate change is one possible point of departure.</p>
+      <aside role="note">
+        <p>The essay itself is on the order of <var>12,000</var> words, and richly illustrated with animations and interactive demonstrations. Victor said he took over two months to write it.</p>
+      </aside>
+      <p>The essay is an exhortation to people trained in various technical disciplines, about specific things they can do to address climate change. In it is a chapter with the somewhat obscure title, <a href="http://www.worrydream.com/ClimateChange/#media">Media for Understanding Situations</a>. Victor uses as his example the situation of public policy discourse where quantities are involved&#x2014;and what public policy doesn't involve (at least monetary) quantities? He remarks that it's possible to use the same data to argue either for <em>or</em> against a given policy prescription, simply by tweaking some of the variables. The conventional op-ed format, Victor argues, simply doesn't have the bandwidth to communicate this nuance, because it has to set the dials <em>somewhere</em>. His solution: hand said dials over to the <em>audience</em>, so <em>they</em> can determine where, if at all, is the sweet spot of parameters that intersects plausible, acceptable, and effective.</p>
+      <aside role="note">
+        <p>Major media outlets like the New York Times and Washington Post produce these kinds of interactive features from time to time, but they tend to be big-budget, one-off endeavours. Victor is calling for this capability to get cheap enough to do everywhere.</p>
+      </aside>
+      <p>This essay was written a year before what can charitably be described&#x2014;to use a technical term&#x2014;as <a rel="ci:mentions" href="https://press.princeton.edu/books/hardcover/9780691122946/on-bullshit">a bullshit renaissance</a>. Its rise highlights a closely related problem: it is manifestly no longer sufficient&#x2014;assuming it ever <em>was</em>&#x2014;to simply give people information, though accurate information has scarcely never been more <em>necessary</em>. To animate the facts, there needs to be a <em>narrative</em>, and not every audience either understands or is motivated by the same story. A superposition of stories&#x2014;that hopefully all draw the same conclusion&#x2014;has to exist all at once. The medium for understanding situations therefore has to understand not only the situation that needs to be communicated, but also the various overlapping constituencies <em>to whom</em> a given situation must be communicated, and what their&#x2014;often diverging, if not outright <em>conflicting</em>&#x2014;expectations are.</p>
+      <p>Climate change, moreover, is a prime example of a global, existential, <dfn>wicked problem</dfn>:</p>
+      <ul>
+        <li>there is no correct solution, only better and worse ones,</li>
+        <li>there are numerous stakeholders involved, with diverging, if not outright conflicting interests,</li>
+        <li>most, if not all solutions will have identifiable winners and losers,</li>
+        <li>most solutions involve most constituencies giving something up,</li>
+        <li>there is often disagreement about what the problem even <em>is</em>,</li>
+        <li>and in the extreme case, whether it even exists.</li>
+      </ul>
+      <p>So it is with climate change: there are people who have demonstrated that they are perfectly content with the prospect of living on a cinder, as long as they're in charge of it. </p>
+      
+      <p>support communicators to communicate accurate information persuasively</p>
+      <p>you don't need accurate information to communicate persuasively, but if you're going to claim accuracy you'll need to cite your sources</p>
+      <p>and those sources will have to be legitimate</p>
+      <aside role="note">
+        <p>Arguably a structural basis for <a href="https://en.wikipedia.org/wiki/Brandolini%27s_law">the bullshit asymmetry principle</a>&#x2014;that bullshit costs an order of magnitude more effort to refute than to create&#x2014;stems from the fact that <em>non</em>-bullshit has to cite&#x2014;and just as if not more importantly, <em>vet</em>&#x2014;its sources.</p>
+        <p>Worth noting as well that bullshit just got at least another order of magnitude cheaper to produce with generative artificial intelligence.</p>
+      </aside>
+      
+      <p>the state of the art of scientific communication sucks</p>
+      <p>basic unit is the paper; only <em>just</em> starting to make data available</p>
+      <p>no publication conventions for data</p>
+      <p>replication is in the toilet</p>
+      <p><q>Scientists don't need publishers as much as they need a publishing <em>function</em>.</q></p>
+      <p>science journalists often misinterpret results</p>
+      
+      <p>we can posit a certain category of tool</p>
+      <p>it isn't really a tool as much as a thin wrapper around data</p>
+      <p>really just a way to create a constellation of small, structured, highly-connected chunks of information, and navigate around in it.</p>
+      <p>plus a handful of ways to manipulate how said information is represented</p>
+      <p>plus a handful of other operations besides</p>
+      <p>the pulverized bits are addressable, meaning they can be referenced and reused</p>
+      <p>pkm (tools for thought, second brain) are in this category</p>
+      <p>add collaboration support and message queue/task scheduling and you net most groupware (which also means, modulo scaling, you net most social networks)</p>
+      <p>a big subcategory is niche tools for professionals </p>
+    </section>
+  </body>
+</html>
